@@ -30,3 +30,12 @@ SMTP_PORT=587
 EMAIL_USER="seu_email@dominio.com"
 EMAIL_PASSWORD="sua_senha_de_app"
 PATH_ARQUIVO="Z:/Rede/Relatorios/arquivo.zip"
+```
+
+## 📋 Estrutura do Agendamento
+
+1. 09:00 (Sexta-feira): Envia um e-mail de lembrete para a equipe técnica preparar o arquivo na rede.
+
+2. 17:00 (Sexta-feira): O script busca o arquivo no diretório especificado e o envia em anexo para a lista de gestores.
+
+Desenvolvido por Danilo Vinícius
